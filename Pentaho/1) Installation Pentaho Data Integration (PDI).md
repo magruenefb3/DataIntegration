@@ -1,4 +1,7 @@
 # Installation Pentaho Data Integration
+
+Die Installationsschritte sind auch unter folgendem Link zu finden: https://www.hitachivantara.com/en-us/pdf/implementation-guide/three-steps-to-install-pentaho-data-integration-ce.pdf
+
 Zur Installation der Pentaho Data Integration Suite sind folgende Schritte notwendig:
 1) Installation von Java, falls noch nicht auf dem PC installiert.
 2) Installation von Pentaho
