@@ -1,4 +1,7 @@
 # Tipps für die Verwendung von Pentaho-Funktionen
+## Dokumentation
+Die Dokumentation der Community Edition ist zu finden unter:  
+https://pentaho-public.atlassian.net/wiki/spaces/EAI/overview 
 
 ## Gmail-Versand in Pentaho
 Zum Versand von Mails mit Gmail ist es zwingend erforderlich ein **App-Passwort** zu erstellen und mittels TLS zu versenden. 
