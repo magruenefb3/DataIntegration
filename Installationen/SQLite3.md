@@ -1,5 +1,8 @@
 # Installation von SQLite3
 
+## Befehele für SQLite
+Eine kurze Übersicht über die Arbeit mit SQLite: https://kshmirko.github.io/static/sqlite_tutorial.pdf 
+
 ## Download
 SQLite - Homepage:  
 https://sqlite.org/
@@ -7,7 +10,6 @@ https://sqlite.org/
 Laden Sie die Executables herunter. Diese sind im Download-Bereich ganz am Ende unter Windows-Binaries zu finden. 
 
 <img src="https://github.com/magruenefb3/DataIntegration/assets/97667586/cc2c909e-f642-4d45-a35a-7c0ffbe93d3a" alt="Windows Binaries" style="width: 100%; height: 100%">
-
 
 ## Entpacken und Verschieben
 Nach dem Download der Datei, muss diese entpackt werden und in Windows eingebunden werden.   
