@@ -8,8 +8,3 @@ Eine kurze Erklärung zu PDI finden Sie hier:
 https://www.hitachivantara.com/pentaho/pentaho-plus-platform/data-integration-analytics/pentaho-tutorials.html
 
 
-
-Beispiel-Projekt "Bergflöhe Elternliste"
-Für den Kindergarten Bergflöhe haben wir eine Datei erhalten, die wir für eine Präsentation qualitätssichern sollen. 
-
-
