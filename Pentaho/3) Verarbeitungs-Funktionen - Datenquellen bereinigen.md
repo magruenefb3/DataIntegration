@@ -2,16 +2,20 @@
 
 Hinweis: wenn in den folgenden Funktionen ein "Out (Stream) Field" gesetzt wird, wird eine neue Spalte erstellt. 
 
-Bei der Bereinigung von Daten können folgende Funktionen verwendet werden:
+Bei der Bereinigung von Daten und zur Durchsetzung von Business Rules (Validation) können folgende Funktionen verwendet werden:
 
 | Ziel der Bereinigung | PDI-Funktion |
 |----------------------|------------|
-| Werte müssen ein vordefiniertes Format haben | `Select values` |
+| **vordefiniertes Format** sicherstellen oder wir müssen **Spalten löschen** | `Select values` |
 | Zusammenfügen mehrerer Spalten in eine | `Concat fields`|
 | Neue Werte zuweisen auf Basis einer Range, z.B. "Senior" basierend auf Alter zwischen 65 und 90 | `Number range`|
 | Neuen Wert aufgrund eines alten Wertes (z.B. Korrektur von Länderinformationen "D" --> "Deutschland") | `Value mapper`|
 | Duplikate entfernen | `Unique rows`|
 | Spezielle Buchstaben löschen oder ändern | `Replace in String`| 
+| Daten anhand einer Lookup-Tabelle prüfen | `Stream lookup` - füllt Daten gemäß Lookup auf. Falls nichts vorhanden, dann NULL.|
+| analog | `Database lookup`|
+| Zeilen aussortieren mittels Bedingung, z.B. NULL-Werte | `Filter rows`|
+| Bedingungen mittels Formeln formulieren | z.B. `Calculator`|
 
 ## Value Mapper - Mapping von Source in Target Datenwerte
 Wenn in Daten falsche Werte erfast sind, können diese z.B. durch einen Lookup in einer Mapping-Tabelle korrigiert werden. 
@@ -45,3 +49,18 @@ Felder werden in eckigen Klammer in den Formeln verwendet.
 Z.B. [DISCOUNT] * 100
 
 ![image](https://github.com/magruenefb3/DataIntegration/assets/97667586/9fb3c39c-51e8-420a-8d53-a7ecbeb5d426)
+
+
+#  Data Validation
+Im Gegensatz zum Data Cleansing, dient Data Validation der Prüfung, ob Daten den Business Rules entsprechen. 
+* So gibt es bspw. Standards für spezifische Daten (Währungs-Codes, IBAN, ...)
+* Auch Konsistenzbedingungen zwischen Tabellen fallen unter den Bereich Validation. Z.B. "Ist die Kundennummer aus der Transaktion auch in der Kundendatenbank enthalten?" --> Lookup
+
+Wenn Zeilen den Validation Rules nicht entsprechen (Error Rows), dann kann folgends passieren:
+1) Löschen der Error Rows
+2) Trennung und Nachverarbeitung der Error Rows und Einfügen in die Verarbeitung
+3) Logging der Error Rows
+4) Schreiben der Error Rows, z.B. in eine Datei, um eine manuelle Prüfung zu unterstützen.
+
+Mit der `Select values`-Funktion können wir Datentypen ändern
+
