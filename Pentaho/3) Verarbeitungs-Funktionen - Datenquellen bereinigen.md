@@ -2,6 +2,17 @@
 
 Hinweis: wenn in den folgenden Funktionen ein "Out (Stream) Field" gesetzt wird, wird eine neue Spalte erstellt. 
 
+Bei der Bereinigung von Daten können folgende Funktionen verwendet werden:
+
+| Ziel der Bereinigung | PDI-Funktion |
+|----------------------|------------|
+| Werte müssen ein vordefiniertes Format haben | `Select values` |
+| Zusammenfügen mehrerer Spalten in eine | `Concat fields`|
+| Neue Werte zuweisen auf Basis einer Range, z.B. "Senior" basierend auf Alter zwischen 65 und 90 | `Number range`|
+| Neuen Wert aufgrund eines alten Wertes (z.B. Korrektur von Länderinformationen "D" --> "Deutschland") | `Value mapper`|
+| Duplikate entfernen | `Unique rows`|
+| Spezielle Buchstaben löschen oder ändern | `Replace in String`| 
+
 ## Value Mapper - Mapping von Source in Target Datenwerte
 Wenn in Daten falsche Werte erfast sind, können diese z.B. durch einen Lookup in einer Mapping-Tabelle korrigiert werden. 
 So kann es sein, dass für ein Land das Kürzel "D" oder "BRD" erfasst wurde, obwohl der korrekte Wert auf "Deutschland" gesetzt sein sollte.
