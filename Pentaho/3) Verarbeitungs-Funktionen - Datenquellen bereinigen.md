@@ -25,4 +25,12 @@ Schritte:
 4) Algorithmus z.B. Levenshtein und Maximal value = 2 und im Tab Fields "Get Fields" klicken. Andere Algorithmen können unter folgendem Link nachgelesen werden: https://pentaho-public.atlassian.net/wiki/spaces/EAI/pages/388310481/Fuzzy+match
 6) Als Ergebnis entstehen weitere Spalten, die dann mit dem `Transform --> Select values` weggeschnitten werden müssen.
 
+## Formula-Funktion - Daten mit Formeln berechnen
+Hinweis: Es gibt auch eine Calculator-Funktion, die jedoch weniger mächtig ist. 
 
+Formeln können eingefügt werden über `Scripting --> Formula`
+
+Felder werden in eckigen Klammer in den Formeln verwendet. 
+Z.B. [DISCOUNT] * 100
+
+![image](https://github.com/magruenefb3/DataIntegration/assets/97667586/9fb3c39c-51e8-420a-8d53-a7ecbeb5d426)
