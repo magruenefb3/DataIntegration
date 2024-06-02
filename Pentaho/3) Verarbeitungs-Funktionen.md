@@ -17,6 +17,13 @@ Auch Daten(typ)konvertierungen können mit dieser Funktion implementiert werden.
 
 ![image](https://github.com/magruenefb3/DataIntegration/assets/97667586/2220b2ef-f772-4774-89c5-dcf185396123)
 
+
+### Append - Zusammenfügen von 2 Streams mittels "Anfügen"
+Wenn 2 Streams vorher sortiert wurden und klar ist, dass die Streams sich nicht hinsichtlich ihrer Keys überlappen, können Daten auch mittels `Flow --> Append streams` zusammengefügt werden.
+
+![image](https://github.com/magruenefb3/DataIntegration/assets/97667586/54e15232-bddd-464b-9dd3-69547628c085)
+
+
 ### Hinweise zum Sortieren von Daten(spalten)
 Mit  `Transform --> Select values` können Datenspalten ausgewählt oder in der Reihenfolge geändert werden. 
 Auch Daten(typ)konvertierungen können mit dieser Funktion implementiert werden.
