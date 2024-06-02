@@ -11,15 +11,16 @@ Pentaho Data Integration besteht aus:
 In der Community Edition von PDI ist lediglich die Perspektive "Data Integration" erhalten.
 
 # Wichtige Begriffe in PDI
-**Transformationen** bestehen aus *Steps*, die über *Hops* miteinander verbunden sind.
-Sie dienen der Verarbeitung von Daten. 
-In den **Steps** werden Funktionen ausgeführt, z.B. das Lesen einer Datei, die Korrektur von Werten oder das Versenden von Mails. 
-Die **Hops** stellen die Verbindungen zwischen den Steps dar und regeln den Datenfluss.  
-Hops können z.B. abhängig von einer Prüfung der Daten sein.   Daten, die eine "Prüfung" nicht bestehen, werden dann z.B. an einen anderen Step weitergeleitet als Daten, die die Prüfung bestanden haben.
+## Transformationen
+* **Transformationen** bestehen aus *Steps*, die über *Hops* miteinander verbunden sind. Sie dienen der Verarbeitung von Daten.  
+* In den **Steps** werden Funktionen ausgeführt, z.B. das Lesen einer Datei, die Korrektur von Werten oder das Versenden von Mails.  
+* Die **Hops** stellen die Verbindungen zwischen den Steps dar und regeln den Datenfluss. Hops können z.B. abhängig von einer Prüfung der Daten sein. 
+Daten, die eine "Prüfung" nicht bestehen, werden dann z.B. an einen anderen Step weitergeleitet als Daten, die die Prüfung bestanden haben.
 
+## Jobs ##
 **Jobs** dienen der Steuerung des Workflows einzelner Aktivitäten in einer ETL-Pipeline. Sie können Transformationen aufrufen.
 Auch bei Jobs hängt die Ansteuerung von Steps davon ab, ob eine "Evaluation" in der Aktivität erfolgreich bestanden wurde.
 
 
 # Quellen
-Müller, S.; Keller, C. (2015): Pentaho und Jedox; Hanser
+Müller, S.; Keller, C. (2015): Pentaho und Jedox, Kap. 5.1; Hanser
