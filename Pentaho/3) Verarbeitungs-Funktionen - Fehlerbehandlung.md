@@ -14,3 +14,6 @@ Vorgehen bei falschen Werten:
 ## Ins Log schreiben
 Hierzu kann der `Write to log`-Step verwendet werden.  
 ![image](https://github.com/magruenefb3/DataIntegration/assets/97667586/1d6222cd-07d3-4bc8-8003-aa28253ffd5c)
+
+## Error in ein File schreiben
+`Microsoft Excel output`
