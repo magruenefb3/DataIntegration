@@ -2,7 +2,6 @@
 
 ## Merging - Datenquellen miteinander verbinden
 Merging bedeutet, dass Daten kombiniert werden.   
-Bei einem Merge wird inhaltlich eine Vereinigungsmenge aus mehreren Datenquellen gebildet. 
 
 ### Sorted Merge und Select Values
 Vor eineme Sorted Merge müssen die einzelnen Datenstreams nach einem Attribut sortiert werden. I.d.R. ist das der Key. 
