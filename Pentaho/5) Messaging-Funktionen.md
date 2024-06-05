@@ -9,5 +9,4 @@ Die Versandeinstellungen müssen dann folgendermaßen gesetzt werden:
 
 ![image](https://github.com/magruenefb3/DataIntegration/assets/97667586/ca6b2f2b-a5fd-46b3-ad0d-7c13369a2693)
 
-width="150" height="100"
 Unter "Authentication password" ist dann das App-Passwort einzutragen, das Sie generiert haben.
