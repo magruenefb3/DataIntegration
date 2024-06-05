@@ -9,7 +9,6 @@ Vor eineme Sorted Merge müssen die einzelnen Datenstreams nach einem Attribut s
 Das Vorgehen ist wie folgt:
 1) Daten laden und beim Laden **deduplizieren** (anhand des Keys).
 2) Gegebenenfallss mit  `Transform --> Select values` die Reihenfolge der Spalten einzelner Inputs anpassen, damit alle Inputs dasselbe Datenschema haben. ![image](https://github.com/magruenefb3/DataIntegration/assets/97667586/8aaa71cc-32b2-432a-949e-23f9b5111073)
-
 Auch Daten(typ)konvertierungen können mit dieser Funktion implementiert werden.
 3) Daten sortieren mit `Transform --> Sort rows`
 4) Daten mit `Joins --> Sorted merge` zusammenführen.
