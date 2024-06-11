@@ -6,9 +6,6 @@ Zur Installation der Pentaho Data Integration Suite sind folgende Schritte notwe
 1) Installation von Java, falls noch nicht auf dem PC installiert.
 2) Installation von Pentaho
 
-Der Marketplace ist leider nicht mehr in der Community Edition enthalten. Er kann aber über das Hadoop-Plugin nachinstalliert werden. 
-Die Installationsanweisung befindet sich hier: https://www.hitachivantara.com/en-us/pdf/implementation-guide/three-steps-to-install-pentaho-data-integration-ce.pdf
- 
 
 
 ## Java-Installation prüfen
@@ -38,3 +35,11 @@ Falls Spoon nicht ausgeführt wird, öffnen Sie bitte SpoonDebug, um den Fehler 
 Pentaho sollte nun starten und nach einem Lade-Bildschirm die Anwendung anzeigen:
 
 ![image](https://github.com/magruenefb3/DataIntegration/assets/97667586/64996838-7d38-44c9-86da-de7970c3dd8b)
+
+## Marketplace nachinstallieren
+
+Der Marketplace ist leider nicht mehr in der Community Edition enthalten. Er kann aber über das Hadoop-Plugin nachinstalliert werden. 
+Die Installationsanweisung befindet sich hier: https://www.hitachivantara.com/en-us/pdf/implementation-guide/three-steps-to-install-pentaho-data-integration-ce.pdf
+Sie müssen unbedingt das erste Paket, wie in der folgenden Abbildung dargestellt, herunter laden:   
+![image](https://github.com/magruenefb3/DataIntegration/assets/97667586/fd788402-69e7-4fad-b036-83d83c5a5e63)
+Dieses müssen Sie anschließend entpacken und die Inhalte aus "dataintegration" nach "dataintegration" in ihrem Installationspfad der PDI kopieren.
