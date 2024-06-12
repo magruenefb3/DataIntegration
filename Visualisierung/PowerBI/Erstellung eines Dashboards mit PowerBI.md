@@ -41,8 +41,45 @@ Laden Sie folgende Tabellen:
 * kind
 * raum
 
+## Aufgabe 3: Datenmodell anzeigen
 Sie sollten nun im Bildschirm "Tabellentools" die Daten der ersten Tabelle sehen können. 
  ![image](https://github.com/magruenefb3/DataIntegration/assets/97667586/5b266e66-e6de-4060-a076-b522604e62f3)
+
+Wechseln Sie nun auf die "Modellansicht"
+![image](https://github.com/magruenefb3/DataIntegration/assets/97667586/824d0272-21c5-43c9-93e4-407c73569924)
+
+PowerBI zeigt Ihnen nun das Datemodell zu den geladenen Tabellen an. 
+  ![image](https://github.com/magruenefb3/DataIntegration/assets/97667586/2144f6b0-0f05-461b-ba02-3ae50405c555)
+
+Falls notwendig, können Sie hier mittels Drag&Drop Beziehungen zwischen den Tabellen anpassen. PowerBI kann Fremdschlüsselbeziehungen in Datenbanken auswerten und ist auch in der Lage aus Spaltenüberschriftn in Excel Fremdschlüsselbeziehungen zu generieren.
+
+## Aufgabe 4: Daten transformieren
+Klicken Sie nun auf "Daten transformieren" im Bereich "Abfragen".   
+![image](https://github.com/magruenefb3/DataIntegration/assets/97667586/27e81c63-ca46-43be-89a6-59077d78f18f)
+
+Aus Gründen der Lesbarkeit möchten Sie in der Tabelle **"elternteil"** die Flag-Spalten (IstHauptansprechpartner, Whatsappzugehörigkeit und IstBerufstaetig) in Boolean umformen. Klicken Sie dazu mit einem Rechtsklick auf die Spaltenüberschriften und wählen Sie aus "Typ ändern". 
+
+Benennen Sie die Spalten um:
+* IstHauptansprechpartner --> Hauptansprechpartner?
+* IstBeruftstaetig --> berufstätig?
+* Whatsapp zugehörigkeit --> InWhatsAppGruppe?
+
+Speichern Sie nun die Änderungen. Sie werden eine Fehlermeldung erhalten. 
+Brechen Sie die Verarbeitung ab und fahren Sie mit der nächsten Aufgabe fort.
+
+## Aufgabe 5: Daten bereinigen
+Prüfen Sie die Einträge in der Tabelle "elternteil" und bereinigen Sie die Daten durch Ersetzen der Werte. Sie legen durch diesen Schritt eine Bereinigungsfunktion an :-)
+
+Prüfen Sie auch alle anderen Tabellen auf Fehler und löschen Sie überflüssige Spalten (Zusatzinfo in Adresse).
+
+
+## Aufgabe 6: Visualisierung
+
+Eine Darstellung der Widgets (Visuals) für PowerBI finden Sie [hier](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a)  
+
+Erstellen Sie zusammen mit Ihrem Team eine Visualisierung, die folgendes zeigt:
+1) Anzahl der Kinder pro Gruppe
+2) Anzahl der Betreuerinnen pro Gruppe
 
 
 
