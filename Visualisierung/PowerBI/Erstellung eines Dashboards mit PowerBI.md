@@ -81,6 +81,9 @@ Erstellen Sie zusammen mit Ihrem Team eine Visualisierung, die folgendes zeigt:
 1) Anzahl der Kinder pro Gruppe
 2) Anzahl der Betreuerinnen pro Gruppe
 
+Beispiel:  
+![image](https://github.com/magruenefb3/DataIntegration/assets/97667586/d76868de-dad0-49df-9ff6-295f01ef9050)
+
 
 
 # Wie geht es weiter?
