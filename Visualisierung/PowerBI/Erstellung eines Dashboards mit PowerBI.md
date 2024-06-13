@@ -84,6 +84,9 @@ Erstellen Sie zusammen mit Ihrem Team eine Visualisierung, die folgendes zeigt:
 Beispiel:  
 ![image](https://github.com/magruenefb3/DataIntegration/assets/97667586/d76868de-dad0-49df-9ff6-295f01ef9050)
 
+Achtung: Die Darstellung der Kinder pro Gruppe ist nicht korrekt. 
+Gehen Sie ins Datenmodell zurück und aktivieren Sie die Beziehung zwischen Kind und Gruppe:  
+![image](https://github.com/magruenefb3/DataIntegration/assets/97667586/e86c31bb-92da-4e1b-a99e-0f9cfbaf195d)
 
 
 # Wie geht es weiter?
